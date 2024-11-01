@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* لون خلفية هادئ */
+    color: #004d40; /* لون نص */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* زيادة ارتفاع السطر */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #b2ebf2; /* لون رأس الصفحة */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* تأثير ظل خفيف */
+}
+
+nav {
+    background-color: #00897b; /* لون شريط التنقل */
+    transition: background-color 0.3s; /* تأثير انتقال لون الخلفية */
+}
+
+nav:hover {
+    background-color: #00695c; /* تغيير لون الخلفية عند التحويم */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* مركز النصوص في شريط التنقل */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* تأثير انتقال على لون النص */
+}
+
+nav a:hover {
+    color: #ffccbc; /* تغيير لون النص عند التحويم */
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* مركز النصوص في المحتوى */
+    transition: background-color 0.3s; /* تأثير انتقال على خلفية المحتوى */
+}
+
+article {
+    background-color: #ffffff; /* لون خلفية المقالات */
+    border-radius: 8px; /* زوايا دائرية */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* تأثير ظل خفيف */
+    padding: 15px;
+    margin-bottom: 20px; /* مسافة بين المقالات */
+    transition: transform 0.2s; /* تأثير انتقال على التحريك */
+}
+
+article:hover {
+    transform: translateY(-2px); /* تحريك المقال للأعلى عند التحويم */
+}
+
+footer {
+    text-align: center; /* مركز النصوص في التذييل */
+    padding: 10px;
+    background-color: #004d40; /* لون تذييل الصفحة */
+    color: white;
+    position: relative;
+    transition: background-color 0.3s; /* تأثير انتقال على خلفية التذييل */
+}
+
+footer:hover {
+    background-color: #00332a; /* تغيير لون التذييل عند التحويم */
+}
